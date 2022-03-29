@@ -1,0 +1,40 @@
+@import "./variables";
+@import "../extends.scss";
+@import "../base/maps";
+
+footer{
+    .footer {
+        @extend%barras;
+            
+            #datos{
+                margin-top: 30px;
+                    ul{
+                        li{
+                            color: map-get ($footer, color);
+                            font-weight: map-get ($footer, fontw);
+                        }
+                    }
+            }  
+
+    }
+    .copy{
+        background-image: $degrade;
+        padding: 5px 0px;
+    }
+    
+}
+
+ @media (max-width: 575.98px) {
+
+     footer{
+         .footer{
+            .resp-footer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+    
+}

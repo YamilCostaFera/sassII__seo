@@ -1,0 +1,203 @@
+footer .footer, header .header {
+  background-image: linear-gradient(to right, #350435, white);
+  border-bottom: 3px black;
+}
+
+section #div-fotos .titulos, aside .div-noticias .titulos {
+  background-image: linear-gradient(to right, #350435, white);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 0px;
+}
+
+::selection {
+  background-color: #280233;
+  color: white;
+}
+
+footer .footer, header .header {
+  background-image: linear-gradient(to right, #350435, white);
+  border-bottom: 3px black;
+}
+
+section #div-fotos .titulos, aside .div-noticias .titulos {
+  background-image: linear-gradient(to right, #350435, white);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 0px;
+}
+
+::selection {
+  background-color: #280233;
+  color: white;
+}
+
+header .header .estudio {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: initial;
+  font-size: 30px;
+  text-shadow: 1px gold;
+}
+
+/* RESPONSIVE MOBILE*/
+
+@media (max-width: 575.98px) {
+  header .header .resp-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+footer .footer, header .header {
+  background-image: linear-gradient(to right, #350435, white);
+  border-bottom: 3px black;
+}
+
+section #div-fotos .titulos, aside .div-noticias .titulos {
+  background-image: linear-gradient(to right, #350435, white);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 0px;
+}
+
+::selection {
+  background-color: #280233;
+  color: white;
+}
+
+footer .footer #datos {
+  margin-top: 30px;
+}
+footer .footer #datos ul li {
+  color: whitesmoke;
+  font-weight: bold;
+}
+footer .copy {
+  background-image: linear-gradient(to right, #350435, white);
+  padding: 5px 0px;
+}
+
+@media (max-width: 575.98px) {
+  footer .footer .resp-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+header .header, footer .footer {
+  background-image: linear-gradient(to right, #350435, white);
+  border-bottom: 3px black;
+}
+
+section #div-fotos .titulos, aside .div-noticias .titulos {
+  background-image: linear-gradient(to right, #350435, white);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 0px;
+}
+
+::selection {
+  background-color: #280233;
+  color: white;
+}
+
+section .form__texto {
+  background-color: #280233;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+section .form__texto #btn__form {
+  background-image: linear-gradient(to right, #350435, white);
+  color: black;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 10px;
+}
+section .form__texto #btn__form:hover {
+  background-color: white;
+  color: #280233;
+  border: none;
+  transition-delay: 0.5s;
+  border-bottom: solid 2px #280233;
+  border-left: solid 2px #280233;
+  border-top: solid 1px #280233;
+  border-right: solid 1px #280233;
+}
+
+li {
+  list-style: none;
+}
+
+.barra {
+  background-image: linear-gradient(to right, #350435, white);
+  border-top: white solid 1px;
+}
+.barra #colorNav {
+  color: white;
+}
+.barra #colorNav:hover {
+  color: black;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition-delay: 0.5s;
+}
+
+main .main .somos {
+  text-align: center;
+  font-family: arial;
+  color: #280233;
+  padding: 3px 0px;
+  margin-top: 20px;
+}
+main .main .p-pres {
+  text-align: justify;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+aside .div-noticias {
+  padding: 20px 5px;
+}
+aside #tarjetas {
+  margin-left: 55px;
+}
+aside #tarjetas .card #btn__ {
+  background-color: #280233;
+  border: black solid 1px;
+}
+aside #tarjetas .card #btn__:hover {
+  background-image: linear-gradient(to right, #350435, white);
+  color: #280233;
+}
+
+section #div-fotos {
+  padding-top: 30px;
+}
+section #fotos {
+  padding: 20px 0px;
+}
+section #fotos #color-btn {
+  background-color: gold;
+}
+section #fotos #color-btn-A {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

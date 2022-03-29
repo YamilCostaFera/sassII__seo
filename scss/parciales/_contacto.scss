@@ -1,0 +1,28 @@
+@import "./variables";
+@import "../extends.scss";
+
+section{
+    .form__texto{
+        background-color: $color1;
+        color: white;
+        border: none;
+        border-radius: 10px;
+            #btn__form{
+                background-image: $degrade;
+                color: black;
+                border: solid 1px white;
+                border-radius: 5px;
+                padding: 10px;
+            }
+            #btn__form:hover{
+                background-color:white;
+                color: $color1;
+                border: none;
+                transition-delay: 0.5s;
+                border-bottom: solid 2px $color1 ;
+                border-left: solid 2px $color1 ;
+                border-top: solid 1px $color1 ;
+                border-right: solid 1px $color1 ;
+            }
+    }
+}
