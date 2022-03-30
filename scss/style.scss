@@ -4,6 +4,7 @@
 @import "./parciales/footer";
 @import "./parciales/contacto";
 @import "./base/maps";
+@import "./base/mixin";
 
 ::selection{
     @extend%selection;  
@@ -31,6 +32,7 @@ li{
 
 // MAIN
 main{
+    
     .main{
         .somos{
             text-align: center;
@@ -42,7 +44,7 @@ main{
         .p-pres{
             text-align: justify;
             margin-top: 5px;
-            font-size: 15px;
+            @include text (blue, 20px, italic);
         }
     }
     
