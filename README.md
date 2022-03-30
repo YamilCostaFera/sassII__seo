@@ -6,7 +6,7 @@ Te detallo los cambios que realice en el presente proyecto entregable.
 
 -Por un lado, aplique extend, mixin, variable y maps a las dos paginas que subo.
     
-    Respecto al SEO:
+Respecto al SEO:
 
 -Aplique comentarios para hacer legible el proyecto, y no para ocultar codigo, como se solicito. Por ello tanto en el head como en el body en el 
 html; y en el scss lo aplique para organizar el codigo.
