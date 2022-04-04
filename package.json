@@ -1,7 +1,7 @@
 {
-  "name": "sassdesafio",
+  "name": "tercerentregafinal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina Web del Estudio Jurídico Calderón y Asociados, esta diseñada con bootstrap, tiene algunas funciones de JavaScript, y demas maquetación escrita con SASS",
   "main": "index.js",
   "dependencies": {
     "bootstrap-icons": "^1.8.1"

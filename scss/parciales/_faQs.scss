@@ -1,0 +1,18 @@
+@import "./variables";
+
+
+.noticias{
+    @extend%titulos;
+}
+
+.button_faqs :focus{
+    background-color: $colorCA;
+    color: white;
+}
+
+
+
+.colorprueba :active{
+    border-color: rgb(229, 11, 11);
+    background-color: rgb(173, 30, 30);
+}

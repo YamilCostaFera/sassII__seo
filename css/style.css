@@ -1,9 +1,9 @@
 footer .footer, header .header {
-  background-image: linear-gradient(to right, #350435, white);
+  background-image: linear-gradient(to right, #350435, #e5c8fc);
   border-bottom: 3px black;
 }
 
-section #div-fotos .titulos, aside .div-noticias .titulos {
+section #div-fotos .titulos, aside .div-noticias .titulos, .noticias {
   background-image: linear-gradient(to right, #350435, white);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
@@ -19,11 +19,11 @@ section #div-fotos .titulos, aside .div-noticias .titulos {
 }
 
 footer .footer, header .header {
-  background-image: linear-gradient(to right, #350435, white);
+  background-image: linear-gradient(to right, #350435, #e5c8fc);
   border-bottom: 3px black;
 }
 
-section #div-fotos .titulos, aside .div-noticias .titulos {
+section #div-fotos .titulos, aside .div-noticias .titulos, .noticias {
   background-image: linear-gradient(to right, #350435, white);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
@@ -40,9 +40,9 @@ section #div-fotos .titulos, aside .div-noticias .titulos {
 
 header .header .estudio {
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Playfair Display", serif;
   font-style: initial;
-  font-size: 30px;
+  font-size: 35px;
   text-shadow: 1px gold;
 }
 
@@ -56,11 +56,11 @@ header .header .estudio {
   }
 }
 footer .footer, header .header {
-  background-image: linear-gradient(to right, #350435, white);
+  background-image: linear-gradient(to right, #350435, #e5c8fc);
   border-bottom: 3px black;
 }
 
-section #div-fotos .titulos, aside .div-noticias .titulos {
+section #div-fotos .titulos, aside .div-noticias .titulos, .noticias {
   background-image: linear-gradient(to right, #350435, white);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
@@ -76,6 +76,8 @@ section #div-fotos .titulos, aside .div-noticias .titulos {
 }
 
 footer .footer #datos {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
   margin-top: 30px;
 }
 footer .footer #datos ul li {
@@ -88,6 +90,9 @@ footer .copy {
 }
 
 @media (max-width: 575.98px) {
+  footer .footer .logo {
+    padding-left: 20px;
+  }
   footer .footer .resp-footer {
     display: flex;
     justify-content: center;
@@ -96,11 +101,11 @@ footer .copy {
   }
 }
 header .header, footer .footer {
-  background-image: linear-gradient(to right, #350435, white);
+  background-image: linear-gradient(to right, #350435, #e5c8fc);
   border-bottom: 3px black;
 }
 
-section #div-fotos .titulos, aside .div-noticias .titulos {
+section #div-fotos .titulos, aside .div-noticias .titulos, .noticias {
   background-image: linear-gradient(to right, #350435, white);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
@@ -137,6 +142,21 @@ section .form__texto #btn__form:hover {
   border-left: solid 2px #280233;
   border-top: solid 1px #280233;
   border-right: solid 1px #280233;
+}
+
+@media (max-width: 575.98px) {
+  media_esp {
+    text-align: center;
+  }
+}
+.button_faqs :focus {
+  background-color: #350435;
+  color: white;
+}
+
+.colorprueba :active {
+  border-color: #e50b0b;
+  background-color: #ad1e1e;
 }
 
 section #envolver {
@@ -204,6 +224,14 @@ section #fotos #color-btn {
 }
 section #fotos #color-btn-A {
   background-color: white;
+}
+
+@media (max-width: 575.98px) {
+  aside #tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

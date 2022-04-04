@@ -7,6 +7,8 @@ footer{
         @extend%barras;
             
             #datos{
+                font-family: $font-estudio;
+                font-size: 16px;
                 margin-top: 30px;
                     ul{
                         li{
@@ -28,6 +30,9 @@ footer{
 
      footer{
          .footer{
+             .logo{
+                 padding-left:20px;
+             }
             .resp-footer{
                 display: flex;
                 justify-content: center;
