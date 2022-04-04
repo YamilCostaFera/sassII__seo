@@ -2,7 +2,6 @@
 @import "./parciales/variables";
 @import "./parciales/header";
 @import "./parciales/footer";
-@import "./base/maps";
 @import "./base/mixin";
 // PARCIALES SECCIONES
 @import "./parciales/contacto";
@@ -22,6 +21,12 @@ li{
 .barra{
     background-image: $degrade;
     border-top: white solid 1px;
+        .brand{
+            color:burlywood;
+        }
+        .brand:hover{
+            color:white;
+        }
         #colorNav{
             color: white;
         }

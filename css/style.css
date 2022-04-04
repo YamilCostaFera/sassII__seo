@@ -154,9 +154,14 @@ section .form__texto #btn__form:hover {
   color: white;
 }
 
+.colorprueba {
+  border-color: white;
+  background-color: black;
+}
+
 .colorprueba :active {
-  border-color: #e50b0b;
-  background-color: #ad1e1e;
+  border-color: white;
+  background-color: black;
 }
 
 section #envolver {
@@ -173,6 +178,12 @@ li {
 .barra {
   background-image: linear-gradient(to right, #350435, white);
   border-top: white solid 1px;
+}
+.barra .brand {
+  color: burlywood;
+}
+.barra .brand:hover {
+  color: white;
 }
 .barra #colorNav {
   color: white;
