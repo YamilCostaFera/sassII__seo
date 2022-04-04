@@ -2,9 +2,13 @@
 @import "./parciales/variables";
 @import "./parciales/header";
 @import "./parciales/footer";
-@import "./parciales/contacto";
 @import "./base/maps";
 @import "./base/mixin";
+// PARCIALES SECCIONES
+@import "./parciales/contacto";
+@import "./parciales/especialidades";
+@import "./parciales/faQs";
+@import "./parciales/nosotros";
 
 ::selection{
     @extend%selection;  

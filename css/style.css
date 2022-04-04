@@ -46,8 +46,7 @@ header .header .estudio {
   text-shadow: 1px gold;
 }
 
-/* RESPONSIVE MOBILE*/
-
+/* RESPONSIVE */
 @media (max-width: 575.98px) {
   header .header .resp-header {
     display: flex;
@@ -138,6 +137,13 @@ section .form__texto #btn__form:hover {
   border-left: solid 2px #280233;
   border-top: solid 1px #280233;
   border-right: solid 1px #280233;
+}
+
+section #envolver {
+  float: right;
+}
+section .nos__text {
+  text-align: justify;
 }
 
 li {

@@ -1,6 +1,6 @@
 @import "./variables";
 @import "../extends.scss";
-@import "../base/maps";
+
 
 footer{
     .footer {
@@ -10,8 +10,8 @@ footer{
                 margin-top: 30px;
                     ul{
                         li{
-                            color: map-get ($footer, color);
-                            font-weight: map-get ($footer, fontw);
+                            color: whitesmoke;
+                            font-weight: bold;  
                         }
                     }
             }  
