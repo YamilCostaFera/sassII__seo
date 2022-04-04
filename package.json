@@ -11,5 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yamil Costa Fera",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YamilCostaFera/sassII__seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YamilCostaFera/sassII__seo/issues"
+  },
+  "homepage": "https://github.com/YamilCostaFera/sassII__seo#readme"
 }
